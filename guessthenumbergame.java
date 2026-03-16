@@ -5,10 +5,7 @@ class game{
     Random obj = new Random();
     public game(){
         num = obj.nextInt(100);
-    }
-    public void setnum(int i){
-        num =i;
-    }
+    } 
     public int getnum(){
         return num;
     }
@@ -35,12 +32,13 @@ public class guessthenumbergame {
         i =i+1;
     }
     if(i>10){
-        System.out.println("You Lost");
+        System.out.println("You Lost!!");
         System.out.println("The number you have to guess="+sid.getnum());
     }
     else{
-        System.out.println("You Won");
+        System.out.println("You Won!!");
         System.out.println("The number you have to guess="+sid.getnum());
     }
+    sc.close();
     }
 }
