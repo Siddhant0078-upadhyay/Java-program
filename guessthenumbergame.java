@@ -13,12 +13,12 @@ class game{
 public class guessthenumbergame {
     public static void main(String[] args) {
     int i=1;
-    System.out.println("You have to guess the number only in 10 guess");
+    System.out.println("You have to guess the number only in 6 guess and the number is between 1 to 100");
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the number=");
         int n =sc.nextInt();
     game sid= new game();
-    while((n<sid.getnum()||n>sid.getnum())&&i<=10){
+    while((n<sid.getnum()||n>sid.getnum())&&i<=6){
     if (n>sid.getnum()){
         System.out.println(n+" is greater than number");
         System.out.print("Enter the number=");
@@ -31,7 +31,7 @@ public class guessthenumbergame {
     }
         i =i+1;
     }
-    if(i>10){
+    if(i>6){
         System.out.println("You Lost!!");
         System.out.println("The number you have to guess="+sid.getnum());
     }
@@ -39,6 +39,6 @@ public class guessthenumbergame {
         System.out.println("You Won!!");
         System.out.println("The number you have to guess="+sid.getnum());
     }
-    sc.close();
+    sc.close(); 
     }
 }
