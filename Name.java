@@ -11,7 +11,7 @@ public class Name {
         String name= "   Siddhant   ";
         System.out.println(name.trim());
         System.out.println(st.substring(4));
-        System.out.println(st.substring(3,6));
+        System.out.println(st.substring(0,3));
         System.out.println(st.startsWith("Sid"));
         System.out.println(st.startsWith("hant5"));
         System.out.println(st.endsWith("hant"));

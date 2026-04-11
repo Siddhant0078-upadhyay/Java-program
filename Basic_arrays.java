@@ -1,3 +1,4 @@
+
 public class Basic_arrays {
     public static void main(String[] args) {
         int i,n;
