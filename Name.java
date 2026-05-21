@@ -14,11 +14,13 @@ public class Name {
         System.out.println(st.substring(0,3));
         System.out.println(st.startsWith("Sid"));
         System.out.println(st.startsWith("hant5"));
+        System.out.println(st.replace('d','r'));
+        System.out.println(st.replace("Sid","Hid"));
         System.out.println(st.endsWith("hant"));
         System.out.println(st.charAt(5));
         System.out.println(st.indexOf("ant"));
         System.out.println(st.lastIndexOf("d"));
         System.out.println(st.equals("Siddhant"));
-        System.out.println(st.equalsIgnoreCase("sIDHANT"));
+        System.out.println(st.equalsIgnoreCase("sIdDHANT"));
     }
 }
