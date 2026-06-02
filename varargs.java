@@ -8,7 +8,7 @@ public class varargs {
        return sum;
     }
     public static void main(String[] args){
-        System.out.println("Sum of 67,88,89=" + sum(67,88,89));
+        System.out.println("Sum of 67,88,89,45=" + sum(67,88,89,45));
     }
     
 }

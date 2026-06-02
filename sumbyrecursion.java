@@ -9,7 +9,7 @@ public class sumbyrecursion {
         }}
         public static void main(String[] args){
             Scanner sc=new Scanner(System.in);
-            System.out.print("Enter the number=");
+            System.out.print("Enter the number upto which you have to add =");
             int n=sc.nextInt();
             System.out.printf("The sum of first %d natural number =%d",n,sum(n));
             sc.close();

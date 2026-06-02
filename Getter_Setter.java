@@ -1,6 +1,8 @@
 class MyEmployee{
-    private int id;
-    private String name;
+     private int id;
+    private String name; 
+   /*  int id;
+    String name; */
     public void setname(String n)
 {
     this.name = n;

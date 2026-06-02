@@ -17,9 +17,9 @@ public class Oopsconcept {
     Scanner sc= new Scanner(System.in);
     System.out.print("Enter S if you want to find area and perimeter of square or Enter R if you want to find area and perimeter of rectangle -");
     char a = sc.next().charAt(0);
-    square s=new square();
-    rectangle r= new rectangle();
-    if(a=='S'){
+    square s = new square();
+    rectangle r = new rectangle();
+    if(a=='S'||a=='s'){
         System.out.print("Enter the length of side=");
         int b =sc.nextInt();
         double res[] =s.func(b,b);

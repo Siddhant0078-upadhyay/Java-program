@@ -39,7 +39,7 @@ public class multithreading_runnable {
         Thread chat = new Thread(t2);
         chat.start();
         cook.start();
-        System.err.println("The id of thread is "+chat.getId());
+        System.err.println("The id of thread is "+chat.threadId());
 
     }
     

@@ -26,4 +26,6 @@ public class TryandCatch {
      catch(Exception e){
             System.out.println("Some other error occured");
             System.out.println(e);
-}}}
+}
+     sc.close();
+    }}
