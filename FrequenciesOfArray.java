@@ -41,6 +41,7 @@ public class FrequenciesOfArray {
         }
         System.out.println("Frequency of each element of array :");
         Freq(arr,n);
+        sc.close();
     }
     
 }

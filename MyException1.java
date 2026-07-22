@@ -21,7 +21,6 @@ class MyException extends Exception{
                     System.out.println(e.getMessage());
                     System.out.println((e.toString()));
                 }
-                sc.close();
             }
            sc.close();
         }
